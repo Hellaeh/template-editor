@@ -1,0 +1,19 @@
+.textarea {
+	height: 4rem;
+	min-height: 4rem;
+	margin: var(--margin);
+	border: none;
+	padding: .5rem;
+
+	overflow-y: hidden;
+	background: var(--color-bg-secondary);
+	border-radius: var(--border-radius);
+	outline: none;
+
+	color: var(--color-fg-main);
+
+	transition: 300ms;
+
+	resize: none;
+}
+

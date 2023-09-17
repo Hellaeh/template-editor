@@ -1,0 +1,24 @@
+{
+  "name": "mte",
+  "version": "0.1.0",
+  "description": "Message Template Editor",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev",
+    "build": "echo build"
+  },
+  "author": "Hellaeh <me@hellaeh.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.6",
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "esbuild": "^0.18.17",
+    "typescript": "^5.1.6"
+  }
+}

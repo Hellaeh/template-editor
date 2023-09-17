@@ -1,0 +1,26 @@
+.array {
+	display:  flex;
+	justify-content:  start;
+}
+
+.container {
+	position:  relative;
+}
+
+.hidden {
+	position:  absolute;
+	top:  0;
+	right:  0;
+	left:  0;
+
+	display:  flex;
+	justify-content:  center;
+
+	height:  100%;
+	width:  100%;
+}
+
+.visible {
+	top:  100%;
+}
+

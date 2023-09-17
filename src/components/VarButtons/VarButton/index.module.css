@@ -1,0 +1,42 @@
+.container {
+	position: relative;
+}
+
+.hidden {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	bottom: 5px;
+	left: 5px;
+
+	display: flex;
+	justify-content: space-around;
+
+	opacity: 0;
+	background: var(--color-bg-secondary);
+	backdrop-filter: blur(5px);
+	border-radius: var(--border-radius);
+
+	transition: 100ms;
+}
+
+.visible+.button {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.visible {
+	opacity: 1;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	translate: 0 100%;
+}
+
+.button-edit {
+	background: var(--color-valid);
+}
+
+.button-delete {
+	background: var(--color-invalid);
+}
+
